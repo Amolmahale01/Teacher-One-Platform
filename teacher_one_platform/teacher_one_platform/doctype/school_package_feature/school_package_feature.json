@@ -1,0 +1,36 @@
+{
+ "doctype": "DocType",
+ "name": "School Package Feature",
+ "module": "Teacher One Platform",
+ "owner": "Administrator",
+ "modified": "2026-11-19 12:10:07.265722",
+ "engine": "InnoDB",
+ "istable": 1,
+ "editable_grid": 1,
+ "track_changes": 0,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "field_order": [
+  "feature_key",
+  "enabled"
+ ],
+ "fields": [
+  {
+   "fieldname": "feature_key",
+   "label": "Feature",
+   "fieldtype": "Select",
+   "reqd": 1,
+   "options": "attendance_sms\nmcq_exams\nwhatsapp\nwritten_marks\nreport_cards\nexport\nai_ocr\nvoice_marks",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "enabled",
+   "label": "Enabled",
+   "fieldtype": "Check",
+   "reqd": 0,
+   "default": "1",
+   "in_list_view": 1
+  }
+ ],
+ "permissions": []
+}

@@ -1,0 +1,206 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"t\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h3\\\">Platform Overview</span>\",\"col\":12}},{\"id\":\"n0\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active Schools\",\"col\":3}},{\"id\":\"n1\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Pending Seat Requests\",\"col\":3}},{\"id\":\"n2\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Pending Payments\",\"col\":3}},{\"id\":\"n3\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Provisioning Failed\",\"col\":3}},{\"id\":\"sp\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"qh\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h3\\\">Quick Actions</span>\",\"col\":12}},{\"id\":\"q0\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Schools\",\"col\":3}},{\"id\":\"q1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Seat Requests\",\"col\":3}},{\"id\":\"q2\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Payments\",\"col\":3}},{\"id\":\"q3\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Seat Usage\",\"col\":3}},{\"id\":\"oI_58s-KpW\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"c0\",\"type\":\"card\",\"data\":{\"card_name\":\"Schools\",\"col\":4}},{\"id\":\"c1\",\"type\":\"card\",\"data\":{\"card_name\":\"Plans and Billing\",\"col\":4}},{\"id\":\"c2\",\"type\":\"card\",\"data\":{\"card_name\":\"Credits\",\"col\":4}},{\"id\":\"c3\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}}]",
+ "creation": "2026-11-21 16:19:53.422051",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "color-rank",
+ "idx": 0,
+ "indicator_color": "",
+ "is_hidden": 0,
+ "label": "Platform Home",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Schools",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Schools",
+   "link_count": 0,
+   "link_to": "School",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Seat Requests",
+   "link_count": 0,
+   "link_to": "School Seat Request",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Plans and Billing",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "School Packages",
+   "link_count": 0,
+   "link_to": "School Package",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Credit Packs",
+   "link_count": 0,
+   "link_to": "Credit Pack",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Payments",
+   "link_count": 0,
+   "link_to": "School Payment",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Credits",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Credit Allocations",
+   "link_count": 0,
+   "link_to": "Credit Allocation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Credit Overview",
+   "link_count": 0,
+   "link_to": "Credit Overview",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "School",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reports",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Seat Usage",
+   "link_count": 0,
+   "link_to": "Seat Usage",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "School",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Credit Overview",
+   "link_count": 0,
+   "link_to": "Credit Overview",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "School",
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-11-21 16:32:10.555091",
+ "modified_by": "Administrator",
+ "module": "Teacher One Platform",
+ "name": "Platform Home",
+ "number_cards": [
+  {
+   "label": "Active Schools",
+   "number_card_name": "Active Schools"
+  },
+  {
+   "label": "Pending Seat Requests",
+   "number_card_name": "Pending Seat Requests"
+  },
+  {
+   "label": "Pending Payments",
+   "number_card_name": "Pending Payments"
+  },
+  {
+   "label": "Provisioning Failed",
+   "number_card_name": "Provisioning Failed"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "doc_view": "List",
+   "label": "Schools",
+   "link_to": "School",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Seat Requests",
+   "link_to": "School Seat Request",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Payments",
+   "link_to": "School Payment",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Seat Usage",
+   "link_to": "Seat Usage",
+   "report_ref_doctype": "School",
+   "type": "Report"
+  }
+ ],
+ "title": "Platform Home"
+}

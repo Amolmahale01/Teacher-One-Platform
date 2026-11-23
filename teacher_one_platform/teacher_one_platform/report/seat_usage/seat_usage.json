@@ -1,0 +1,23 @@
+{
+ "doctype": "Report",
+ "name": "Seat Usage",
+ "report_name": "Seat Usage",
+ "ref_doctype": "School",
+ "module": "Teacher One Platform",
+ "report_type": "Script Report",
+ "is_standard": "Yes",
+ "disabled": 0,
+ "add_total_row": 0,
+ "prepared_report": 0,
+ "owner": "Administrator",
+ "idx": 0,
+ "docstatus": 0,
+ "modified": "2026-11-20 07:22:18.465287",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ],
+ "columns": [],
+ "filters": []
+}

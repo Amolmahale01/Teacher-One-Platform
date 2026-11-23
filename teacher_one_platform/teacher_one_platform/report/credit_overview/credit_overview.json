@@ -1,0 +1,23 @@
+{
+ "doctype": "Report",
+ "name": "Credit Overview",
+ "report_name": "Credit Overview",
+ "ref_doctype": "School",
+ "module": "Teacher One Platform",
+ "report_type": "Script Report",
+ "is_standard": "Yes",
+ "disabled": 0,
+ "add_total_row": 0,
+ "prepared_report": 0,
+ "owner": "Administrator",
+ "idx": 0,
+ "docstatus": 0,
+ "modified": "2026-11-20 08:31:29.444587",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ],
+ "columns": [],
+ "filters": []
+}

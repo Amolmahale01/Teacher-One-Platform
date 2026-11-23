@@ -1,0 +1,234 @@
+{
+ "doctype": "DocType",
+ "name": "School",
+ "module": "Teacher One Platform",
+ "owner": "Administrator",
+ "modified": "2026-11-21 06:05:17.349229",
+ "engine": "InnoDB",
+ "istable": 0,
+ "editable_grid": 0,
+ "track_changes": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "field_order": [
+  "school_name",
+  "status",
+  "site_name",
+  "sb1",
+  "admin_name",
+  "admin_email",
+  "admin_mobile",
+  "sb2",
+  "package",
+  "seats",
+  "valid_till",
+  "grace_days",
+  "sb3",
+  "credits_allocated",
+  "credits_balance",
+  "seats_used",
+  "students_active",
+  "usage_synced",
+  "last_synced",
+  "sync_result",
+  "api_key",
+  "api_secret_enc",
+  "api_secret",
+  "provision_status",
+  "provision_log"
+ ],
+ "fields": [
+  {
+   "fieldname": "school_name",
+   "label": "School Name",
+   "fieldtype": "Data",
+   "reqd": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "status",
+   "label": "Status",
+   "fieldtype": "Select",
+   "reqd": 1,
+   "options": "Requested\nApproved\nActive\nSuspended\nArchived",
+   "default": "Requested",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "site_name",
+   "label": "Site Name (e.g. school1.localhost)",
+   "fieldtype": "Data",
+   "reqd": 0,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "sb1",
+   "label": "Admin Contact",
+   "fieldtype": "Section Break",
+   "reqd": 0
+  },
+  {
+   "fieldname": "admin_name",
+   "label": "Admin Name",
+   "fieldtype": "Data",
+   "reqd": 0
+  },
+  {
+   "fieldname": "admin_email",
+   "label": "Admin Email",
+   "fieldtype": "Data",
+   "reqd": 0,
+   "options": "Email"
+  },
+  {
+   "fieldname": "admin_mobile",
+   "label": "Admin Mobile",
+   "fieldtype": "Data",
+   "reqd": 0
+  },
+  {
+   "fieldname": "sb2",
+   "label": "Subscription",
+   "fieldtype": "Section Break",
+   "reqd": 0
+  },
+  {
+   "fieldname": "package",
+   "label": "School Package",
+   "fieldtype": "Link",
+   "reqd": 1,
+   "options": "School Package",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "seats",
+   "label": "Seats Purchased",
+   "fieldtype": "Int",
+   "reqd": 1
+  },
+  {
+   "fieldname": "valid_till",
+   "label": "Valid Till",
+   "fieldtype": "Date",
+   "reqd": 0
+  },
+  {
+   "fieldname": "grace_days",
+   "label": "Grace Days",
+   "fieldtype": "Int",
+   "reqd": 0,
+   "default": "7"
+  },
+  {
+   "fieldname": "sb3",
+   "label": "Credits and Sync",
+   "fieldtype": "Section Break",
+   "reqd": 0
+  },
+  {
+   "fieldname": "credits_allocated",
+   "label": "Credits Allocated (total)",
+   "fieldtype": "Int",
+   "reqd": 0,
+   "read_only": 1
+  },
+  {
+   "fieldname": "credits_balance",
+   "label": "Credit Balance at School",
+   "fieldtype": "Int",
+   "read_only": 1,
+   "reqd": 0
+  },
+  {
+   "fieldname": "seats_used",
+   "label": "Seats Used (Active teacher + staff)",
+   "fieldtype": "Int",
+   "read_only": 1,
+   "reqd": 0
+  },
+  {
+   "fieldname": "students_active",
+   "label": "Active Students",
+   "fieldtype": "Int",
+   "read_only": 1,
+   "reqd": 0
+  },
+  {
+   "fieldname": "usage_synced",
+   "label": "Usage Updated",
+   "fieldtype": "Datetime",
+   "read_only": 1,
+   "reqd": 0
+  },
+  {
+   "fieldname": "last_synced",
+   "label": "Last Synced",
+   "fieldtype": "Datetime",
+   "reqd": 0,
+   "read_only": 1
+  },
+  {
+   "fieldname": "sync_result",
+   "label": "Sync Result",
+   "fieldtype": "Small Text",
+   "reqd": 0,
+   "read_only": 1
+  },
+  {
+   "fieldname": "api_key",
+   "label": "API Key (school link)",
+   "fieldtype": "Data",
+   "read_only": 1,
+   "reqd": 0
+  },
+  {
+   "fieldname": "api_secret_enc",
+   "label": "API Secret (encrypted)",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "read_only": 1,
+   "no_copy": 1,
+   "reqd": 0
+  },
+  {
+   "fieldname": "api_secret",
+   "label": "API Secret",
+   "fieldtype": "Password",
+   "read_only": 1,
+   "reqd": 0,
+   "hidden": 1
+  },
+  {
+   "fieldname": "provision_status",
+   "label": "Provision Status",
+   "fieldtype": "Select",
+   "options": "Not Started\nRunning\nDone\nFailed",
+   "default": "Not Started",
+   "read_only": 1,
+   "reqd": 0
+  },
+  {
+   "fieldname": "provision_log",
+   "label": "Provision Log",
+   "fieldtype": "Long Text",
+   "read_only": 1,
+   "reqd": 0
+  }
+ ],
+ "permissions": [
+  {
+   "role": "System Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "share": 1,
+   "email": 1,
+   "delete": 1
+  }
+ ],
+ "autoname": "format:SCH-{#####}",
+ "title_field": "school_name"
+}

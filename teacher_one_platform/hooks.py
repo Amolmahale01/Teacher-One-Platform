@@ -247,3 +247,28 @@ app_license = "mit"
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
 
+
+
+# ---- C1: daily usage fetch ----
+try:
+    scheduler_events
+except NameError:
+    scheduler_events = {}
+scheduler_events.setdefault("daily", []).append(
+    "teacher_one_platform.teacher_one_platform.doctype.school.school.daily_fetch")
+
+
+# ---- self-healing API link: daily ----
+try:
+    scheduler_events
+except NameError:
+    scheduler_events = {}
+scheduler_events.setdefault("daily", []).append("teacher_one_platform.sync.ensure_all_linked")
+
+
+# ---- self-healing API link: daily ----
+try:
+    scheduler_events
+except NameError:
+    scheduler_events = {}
+scheduler_events.setdefault("daily", []).append("teacher_one_platform.sync.ensure_all_linked")
